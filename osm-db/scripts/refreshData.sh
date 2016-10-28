@@ -2,6 +2,8 @@
 BASE_URL="http://download.geofabrik.de/europe/germany/"
 SUFFIX="-latest.osm.bz2"
 
+mkdir -p ../data
+
 for f in $(<osm-regions.list)
 do
   FILE_NAME="${f}${SUFFIX}"
