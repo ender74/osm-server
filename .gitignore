@@ -1,2 +1,6 @@
 osm-db/data/*
 osm-db/scripts/update/logs/*
+osm-tiles/mod_tile/
+osm-tiles/mod_tile/*
+osm-tiles/openstreetmap-carto-2.41.0/*
+osm-tiles/v2.41.0.tar.gz
