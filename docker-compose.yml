@@ -1,11 +1,26 @@
 version: '2'
 services:
     dbnode1:
+        build: ./postgres-gis
         image: postgres-gis
         hostname: dbnode1
         ports:
             - "5432:5432"
         volumes:
             - data1:/var/lib/postgresql/9.5/main
+    fill-osm-db:
+        build: ./fill-osm-db
+        image: fill-osm-db
+        command: --checkdb
+        environment:
+          - PGHOST=dbnode1
+          - PGPORT=5432
+          - PGUSER=osm
+          - PGUSERPW=osm
+          - PGADMIN=postgres
+          - PGADMINPW=postgres
+          - OSM_REGIONS="thueringen"
+        depends_on:
+          - dbnode1
 volumes:
   data1:
