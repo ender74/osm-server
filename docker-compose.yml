@@ -1,26 +1,55 @@
 version: '2'
 services:
-    dbnode1:
+    pg:
         build: ./postgres-gis
         image: postgres-gis
-        hostname: dbnode1
+        hostname: pg
         ports:
             - "5432:5432"
         volumes:
-            - data1:/var/lib/postgresql/9.5/main
+            - data-pg:/var/lib/postgresql/9.5/main/
     fill-osm-db:
         build: ./fill-osm-db
         image: fill-osm-db
         command: --checkdb
         environment:
-          - PGHOST=dbnode1
+          - PGHOST=pg
           - PGPORT=5432
           - PGUSER=osm
           - PGUSERPW=osm
           - PGADMIN=postgres
           - PGADMINPW=postgres
-          - OSM_REGIONS="thueringen"
+          - OSM_REGIONS=thueringen
         depends_on:
-          - dbnode1
+          - pg
+    osm-renderd:
+        build: ./osm-renderd
+        image: osm-renderd
+        volumes:
+          - data-tiles:/var/lib/mod_tile/
+          - data-renderd-conf:/etc/renderd/
+          - /var/run/renderd:/var/run/renderd
+        environment:
+          - PGHOST=pg
+          - PGPORT=5432
+          - PGUSER=osm
+          - PGUSERPW=osm
+          - PGADMIN=postgres
+          - PGADMINPW=postgres
+        depends_on:
+          - fill-osm-db
+    apache-www:
+        image: osm-renderd
+        command: /usr/sbin/apachectl -e info -DFOREGROUND
+        volumes:
+          - data-tiles:/var/lib/mod_tile/
+          - data-renderd-conf:/etc/renderd/
+          - /var/run/renderd:/var/run/renderd
+        ports:
+            - "80:80"
+        depends_on:
+          - osm-renderd
 volumes:
-  data1:
+  data-pg:
+  data-renderd-conf:
+  data-tiles:

@@ -11,8 +11,10 @@ for f in $OSM_REGIONS
 do
   FILE_NAME="${f}${SUFFIX}"
   FILE_URL="${BASE_URL}${FILE_NAME}"
-  if [[ "$(curl $FILE_URL -z $DATA_DIR/$FILE_NAME -o $DATA_DIR/$FILE_NAME -s -L -w %{http_code})" == "200" ]]; then
+  if [[ "$(curl $FILE_URL -z $DATA_DIR/$FILE_NAME -o $DATA_DIR/$FILE_NAME -v -s -L -w %{http_code})" == "200" ]]; then
     echo "updated ${FILE_NAME}"
     ./filldb.sh $DATA_DIR/$FILE_NAME
+  else
+    echo "no newer data found ($?)"
   fi
 done

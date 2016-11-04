@@ -9,7 +9,6 @@ RUN apt-get update -y \
     && apt-get install --no-install-recommends -y postgresql-${PGVERSION} postgresql-contrib-${PGVERSION} \
       postgis postgresql-${PGVERSION}-postgis-${POSTGISVERSION} postgresql-${PGVERSION}-pgrouting \
     && apt-get autoremove -y \
-        # Clean up
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/* /root/.cache
 

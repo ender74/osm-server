@@ -354,7 +354,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -3025,7 +3025,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -3059,7 +3059,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -3122,7 +3122,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -3178,7 +3178,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -3341,7 +3341,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -4055,7 +4055,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -5364,7 +5364,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -5398,7 +5398,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -5423,7 +5423,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -5454,7 +5454,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -5489,7 +5489,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -5560,7 +5560,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -5613,7 +5613,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -5640,7 +5640,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -5674,7 +5674,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -5737,7 +5737,7 @@ AS buildings_major]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -11183,7 +11183,7 @@ AS buildings_major]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -11217,7 +11217,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -11279,7 +11279,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -11315,7 +11315,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -11354,7 +11354,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -11395,7 +11395,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -11426,7 +11426,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -11611,7 +11611,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -11687,7 +11687,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -12340,7 +12340,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -12439,7 +12439,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -17346,7 +17346,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -17542,7 +17542,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -17617,7 +17617,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -17774,7 +17774,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -19040,7 +19040,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -24484,7 +24484,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -24515,7 +24515,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -24652,7 +24652,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -24747,7 +24747,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -24828,7 +24828,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -24862,7 +24862,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -24906,7 +24906,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -24960,7 +24960,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -25034,7 +25034,7 @@ AS citywalls]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -25140,7 +25140,7 @@ SELECT
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -25220,7 +25220,7 @@ SELECT
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -25414,7 +25414,7 @@ SELECT
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -25543,7 +25543,7 @@ SELECT
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -25656,7 +25656,7 @@ SELECT
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -25762,7 +25762,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -26686,7 +26686,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -27620,7 +27620,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -27654,7 +27654,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -27678,7 +27678,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -27734,7 +27734,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -27864,7 +27864,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -27912,7 +27912,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -28075,7 +28075,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -28121,7 +28121,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -28554,7 +28554,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -28649,7 +28649,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -28903,7 +28903,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -31501,7 +31501,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -31567,7 +31567,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -34185,7 +34185,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -34219,7 +34219,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -34243,7 +34243,7 @@ WHERE railway IN ('station', 'halt', 'tram_stop')
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -34278,7 +34278,7 @@ SELECT
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -34317,7 +34317,7 @@ ORDER BY way_pixels DESC NULLS LAST
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -34404,7 +34404,7 @@ ORDER BY way_pixels DESC NULLS LAST
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -34435,7 +34435,7 @@ ORDER BY way_pixels DESC NULLS LAST
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -34465,7 +34465,7 @@ ORDER BY way_pixels DESC NULLS LAST
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -34493,7 +34493,7 @@ ORDER BY way_pixels DESC NULLS LAST
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -34644,7 +34644,7 @@ ORDER BY way_pixels DESC NULLS LAST
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
@@ -34785,7 +34785,7 @@ ORDER BY way_pixels DESC NULLS LAST
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="host">localhost</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
+       <Parameter name="host">pg</Parameter><Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user">osm</Parameter> <Parameter name="password">osm</Parameter>
     </Datasource>
   </Layer>
 
