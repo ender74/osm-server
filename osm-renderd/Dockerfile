@@ -28,9 +28,11 @@ ADD mapnik /opt/mapnik/
 ADD renderd.conf /etc/renderd/
 ADD apache/conf/osm-tiles.conf /etc/apache2/conf-available
 ADD apache/sites/osm-tiles.conf /etc/apache2/sites-available
+ADD map.html /var/www/html/
 RUN ln -s /etc/apache2/conf-available/osm-tiles.conf /etc/apache2/conf-enabled/osm-tiles.conf \
     && ln -s /etc/apache2/sites-available/osm-tiles.conf /etc/apache2/sites-enabled/osm-tiles.conf \
-    && chmod u+x /opt/mapnik/*.sh
+    && chmod u+x /opt/mapnik/*.sh \
+    && rm /etc/apache2/sites-enabled/000-default.conf
 
 VOLUME ["/etc/renderd/", "/var/run/renderd/", "/opt/mapnik/", "/var/lib/mod_tile/"]
 WORKDIR /opt/mapnik/
