@@ -26,10 +26,9 @@ O2PGS_ARGS="--number-processes 6"
 JAVACMD_OPTIONS="-server"
 export JAVACMD_OPTIONS
 
-mkdir -p logs
-OSMOSISLOG=./logs/osmosis.log
-PSQLLOG=./logs/osm2pgsql.log
-RUNLOG=./logs/load-next.log
+OSMOSISLOG=/var/log/osm/osmosis.log
+PSQLLOG=/var/log/osm/osm2pgsql.log
+RUNLOG=/var/log/osm/load-next.log
 
 HOST=$PGHOST
 DB=gis
@@ -79,7 +78,7 @@ freelock()
 
 WDIR=`dirname $0`
 pushd $WDIR >/dev/null
-#m_info "Workingdir $WDIR"
+m_info "Workingdir $WDIR"
 
 if ! getlock; then
 	m_info "pid `cat $PIDFILE` still running"
