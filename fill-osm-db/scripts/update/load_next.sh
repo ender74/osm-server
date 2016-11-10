@@ -26,10 +26,6 @@ O2PGS_ARGS="--number-processes 6"
 JAVACMD_OPTIONS="-server"
 export JAVACMD_OPTIONS
 
-OSMOSISLOG=/var/log/osm/osmosis.log
-PSQLLOG=/var/log/osm/osm2pgsql.log
-RUNLOG=/var/log/osm/load-next.log
-
 HOST=$PGHOST
 DB=gis
 PREFIX=planet
@@ -40,12 +36,12 @@ EXPIRE=0
 
 m_info()
 {
-	echo "[`date +"%Y-%m-%d %H:%M:%S"`] $$ $1" >> "$RUNLOG"
+	echo "[`date +"%Y-%m-%d %H:%M:%S"`] $$ $1"
 }
 
 m_error()
 {
-	echo "[`date +"%Y-%m-%d %H:%M:%S"`] $$ [error] $1" >> "$RUNLOG"
+	echo "[`date +"%Y-%m-%d %H:%M:%S"`] $$ [error] $1"
 
 	m_info "resetting state"
 	/bin/cp last.state.txt state.txt
@@ -56,7 +52,7 @@ m_error()
 
 m_ok()
 {
-	echo "[`date +"%Y-%m-%d %H:%M:%S"`] $$ $1" >> "$RUNLOG"
+	echo "[`date +"%Y-%m-%d %H:%M:%S"`] $$ $1"
 }
 
 getlock()
@@ -98,7 +94,7 @@ echo $$ >"$PIDFILE"
 
 /bin/cp state.txt last.state.txt
 m_ok "downloading diff"
-if ! $OSMOSIS --read-replication-interval --simplify-change --write-xml-change "$CURRENT" 1>&2 2> "$OSMOSISLOG"; then
+if ! $OSMOSIS --read-replication-interval --simplify-change --write-xml-change "$CURRENT" 1>&2; then
 	m_error "osmosis error"
 fi
 
@@ -109,7 +105,7 @@ RELS=`grep '<rel' < "$CURRENT" |wc -l`
 m_info "expecting Node("$((NODES / 1000))"k) Way("$((WAYS / 1000))"k) Relation("$((RELS / 1000))"k)"
 
 m_ok "importing diff"
-if ! $OSM2PGSQL --append --slim --cache 2024 $PSQ_BBOX --merc --prefix $PREFIX --style $STYLE --host $HOST --database $DB --username $USER $HSTORE $O2PGS_ARGS --verbose "$CURRENT" 1> /dev/null 2> "$PSQLLOG"; then
+if ! $OSM2PGSQL --append --slim --cache 2024 $PSQ_BBOX --merc --prefix $PREFIX --style $STYLE --host $HOST --database $DB --username $USER $HSTORE $O2PGS_ARGS --verbose "$CURRENT" 1> /dev/null; then
 	m_error "osm2pgsql error"
 fi
 

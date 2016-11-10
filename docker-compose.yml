@@ -19,9 +19,13 @@ services:
           - PGUSERPW=osm
           - PGADMIN=postgres
           - PGADMINPW=postgres
+          - OSM_BASE_URL=http://download.geofabrik.de/europe/germany/
           - OSM_REGIONS=thueringen
+          - DATA_DIR=/var/cache/osmdata/
         depends_on:
           - pg
+        volumes:
+          - data-osm:/var/cache/osmdata/
     osm-renderd:
         build: ./osm-renderd
         image: osm-renderd
@@ -51,5 +55,6 @@ services:
           - osm-renderd
 volumes:
   data-pg:
+  data-osm:
   data-renderd-conf:
   data-tiles:
