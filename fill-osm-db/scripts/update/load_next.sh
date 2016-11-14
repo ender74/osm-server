@@ -28,7 +28,7 @@ export JAVACMD_OPTIONS
 
 HOST=$PGHOST
 DB=gis
-PREFIX=planet
+PREFIX=planet_osm
 USER=$PGUSER
 
 CURRENT=/tmp/osm-load-next.$$.osc

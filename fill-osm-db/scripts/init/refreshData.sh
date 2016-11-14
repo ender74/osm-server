@@ -20,10 +20,18 @@ do
 
     #prepare osmosis update
     UPDATE_DIR="${DATA_DIR}${f}"
+    UPDATE_URL="${OSM_BASE_URL}${f}-updates/"
+
+    if [ -d $UPDATE_DIR ]; then
+      rm -rf $UPDATE_DIR
+    fi
+
     mkdir -p $UPDATE_DIR
-    echo "baseUrl=${OSM_BASE_URL}${f}-updates/" > $UPDATE_DIR/configuration.txt
+    echo "baseUrl=${UPDATE_URL}" > $UPDATE_DIR/configuration.txt
     echo "maxInterval = 3600" >> $UPDATE_DIR/configuration.txt
-    echo "timestamp=$TIMESTAMP" > $UPDATE_DIR/state.txt
+    #echo "timestamp=$TIMESTAMP" > $UPDATE_DIR/state.txt
+
+    curl ${UPDATE_URL}/state.txt -o $UPDATE_DIR/state.txt
 
     ln -s $SCRIPTPATH/../update/load_next.sh $UPDATE_DIR/load_next.sh
 
