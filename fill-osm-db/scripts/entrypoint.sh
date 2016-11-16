@@ -48,7 +48,7 @@ while getopts "$optspec" optchar; do
                 updatedb)
                     echo "updating the gis database"
                     cd $basePath/update
-                    exec ./load_next.sh
+                    exec ./update_all.sh
                     ;;
                 help)
                     usage

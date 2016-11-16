@@ -14,7 +14,7 @@ ADD scripts /opt/scripts
 RUN chmod u+x /opt/scripts/init/*.sh \
 	&& chmod u+x /opt/scripts/update/*.sh \
 	&& mkdir /var/log/osm \
-  && mkdir /var/cache/osmdata
+  && mkdir /var/cache/osmdata 
 VOLUME ["/var/cache/osmdata/"]
 
 WORKDIR /opt/scripts/

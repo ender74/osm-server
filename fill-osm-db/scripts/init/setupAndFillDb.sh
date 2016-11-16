@@ -2,7 +2,8 @@
 export PGPASSWORD=$PGADMINPW
 
 if psql -h $PGHOST -d postgres -U $PGADMIN -p $PGPORT -lqt | cut -d \| -f 1 | grep -qw gis; then
-    echo "database exists, doing nothing"
+    echo "database exists, doing update"
+    /opt/scripts/update/update_all.sh
 else
   echo "removing $DATA_DIR"
   rm -rf $DATA_DIR
