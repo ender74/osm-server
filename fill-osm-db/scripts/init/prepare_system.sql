@@ -1,5 +1,8 @@
 ALTER SYSTEM SET shared_buffers='16GB';
 
+DROP DATABASE gis;
+DROP ROLE osm;
+
 -- User: osm
 CREATE ROLE osm LOGIN PASSWORD 'osm'
   CREATEDB
@@ -8,9 +11,6 @@ COMMENT ON ROLE osm
   IS 'OSM database user';
 
 -- Database: gis
-
-DROP DATABASE gis;
-
 CREATE DATABASE gis
   WITH OWNER = osm
        ENCODING = 'UTF8'
